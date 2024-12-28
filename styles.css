@@ -1,0 +1,47 @@
+body{
+    font-family: cursive;
+    margin: 0px;
+    padding:1px;
+}
+nav{
+    background-color: rgb(174, 208, 115);
+    padding:20px;
+    display: flex;
+   gap: 500px;
+    justify-content: center;
+    
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 15px;
+}
+nav :hover{color:rgb(4, 74, 104);}
+h1{text-align: center;}
+form {
+margin:20px auto;
+height: 100px;
+width:400px;
+display:flex ;
+flex-direction: column;
+padding: 10px;
+
+
+text-align: center;
+}
+form label,form input,form select,form button{
+    margin:20px 0;
+
+}
+#bookGrid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin:20px;
+
+}
+book-card{
+    border:2px rgb(108, 92, 185);
+    padding:10px;
+    text-align: center;
+}
