@@ -1,0 +1,23 @@
+{
+"books":[
+  {
+  "title": "Geetanjali",
+  "author": "Rabindra nath tagore",
+  "category": "Fictional",
+  "isAvailable": true,
+  
+  "borrowedDays": null,
+  "imageUrl": "https://m.media-amazon.com/images/I/71ZB18P3inL._SY522_.jpg"
+},
+
+{
+  "title": "Book Title",
+  "author": "Author Name",
+  "category": "Fictional",
+  "isAvailable": false,
+  
+  "borrowedDays": null,
+  "imageUrl": "https://m.media-amazon.com/images/I/71ZB18P3inL._SY522_.jpg"
+}
+  ]
+}
